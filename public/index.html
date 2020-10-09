@@ -12,10 +12,15 @@
 			<div class="centered-form__box">
 				<h1>Join</h1>
 				<form action="/chat.html">
-          <label for="">Display name</label>
-          <input type="text" name="username" placeholder="username" required>
-          <label for="">Room name</label>
-          <input type="text" name="room" placeholder="room" required> 
+					<label for="">Display name</label>
+					<input type="text" name="username" placeholder="username" required />
+					<label for="">Room name</label>
+					<!-- <input type="text" name="room" placeholder="room" required>  -->
+					<select name="room" required>
+						<option value="Private">Private</option>
+						<option value="Guest">Guest</option>
+					</select>
+					<br />
 					<button type="submit">Join</button>
 				</form>
 			</div>
